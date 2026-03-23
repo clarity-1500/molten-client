@@ -1,3 +1,5 @@
+# Molten Client
+
 Molten Client - Minecraft Launcher
 
   A custom, personal Minecraft Java Edition launcher built with Tauri, React, and Rust.
