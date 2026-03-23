@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Molten Client</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: #0d0d0d; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; padding: 48px 24px; }
-    .container { max-width: 760px; margin: 0 auto; }
-    h1 { font-size: 42px; font-weight: 800; color: #ff8c00; margin-bottom: 8px; }
-    .subtitle { color: #888; font-size: 16px; margin-bottom: 40px; }
-    h2 { font-size: 20px; font-weight: 700; color: #fff; margin: 32px 0 14px; border-bottom: 1px solid #222; padding-bottom: 6px; }
-    ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-    ul li { font-size: 15px; color: #ccc; }
-    ul li strong { color: #fff; }
-    .chips { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
-    .chip { background: #1a1a1a; border: 1px solid #333; border-radius: 20px; padding: 4px 14px; font-size: 13px; color: #aaa; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Molten Client</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0d0d0d; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; padding: 48px 24px; }
+.container { max-width: 780px; margin: 0 auto; }
+h1 { font-size: 42px; font-weight: 800; color: #ff8c00; margin-bottom: 6px; }
+.subtitle { color: #888; font-size: 16px; margin-bottom: 40px; }
+h2 { font-size: 20px; font-weight: 700; color: #fff; margin: 36px 0 14px; border-bottom: 1px solid #222; padding-bottom: 6px; }
+ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+ul li { font-size: 15px; color: #ccc; line-height: 1.5; }
+ul li strong { color: #fff; }
+.chips { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+.chip { background: #1a1a1a; border: 1px solid #333; border-radius: 20px; padding: 4px 14px; font-size: 13px; color: #aaa; text-decoration: none; }
+.chip:hover { border-color: #ff8c00; color: #ff8c00; }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Molten Client</h1>
-    <p class="subtitle">A custom Minecraft Java Edition launcher</p>
-    <h2>Features</h2>
-    <ul>
-      <li><strong>Microsoft Authentication</strong> - Sign in with your Microsoft account</li>
-      <li><strong>Mod Manager</strong> - Browse, install, enable/disable, and delete Fabric mods via Modrinth</li>
-      <li><strong>Resource Packs and Shaders</strong> - Manage and download from Modrinth</li>
-      <li><strong>Skin Viewer</strong> - 3D skin preview</li>
-      <li><strong>Screenshots</strong> - Browse and manage your Minecraft screenshots</li>
-      <li><strong>Console</strong> - View live Minecraft logs</li>
-      <li><strong>Crash Reports</strong> - Read crash reports directly in the launcher</li>
-      <li><strong>Profiles</strong> - Multiple launch profiles</li>
-      <li><strong>Server Quick Join</strong> - Jump straight into a server from the launcher</li>
-    </ul>
-    <h2>Built With</h2>
-    <div class="chips">
-      <span class="chip">Tauri</span>
-      <span class="chip">React</span>
-      <span class="chip">TypeScript</span>
-      <span class="chip">Rust</span>
-      <span class="chip">Vite</span>
-    </div>
-  </div>
+<div class="container">
+<h1>Molten Client</h1>
+<p class="subtitle">A custom, personal Minecraft Java Edition launcher built with Tauri, React, and Rust.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Microsoft Authentication</strong> — Sign in with your Microsoft account</li>
+<li><strong>Mod Manager</strong> — Browse, install, enable/disable, and delete Fabric mods via Modrinth API. Also supports installing modpacks from Modrinth.</li>
+<li><strong>Resource Packs &amp; Shaders</strong> — Manage and download from Modrinth</li>
+<li><strong>Skin Viewer</strong> — 3D skin preview, install skins from username, view and select slim or normal</li>
+<li><strong>Screenshots</strong> — Browse and manage your Minecraft screenshots from your folder directly in the app</li>
+<li><strong>Console</strong> — View live Minecraft logs, see errors, etc.</li>
+<li><strong>Crash Reports</strong> — Read crash reports directly in the launcher</li>
+<li><strong>Profiles</strong> — Multiple profiles, customizable for survival, PvP, Skyblock, etc.</li>
+<li><strong>Server Quick Join</strong> — Jump straight into a server from the launcher; the launcher will force-join you to the server directly after Minecraft has launched</li>
+</ul>
+<h2>Next Steps</h2>
+<ul>
+<li><strong>Built-in Skyblock Mods</strong> — Planning to add built-in Hypixel Skyblock mods, similar to Lunar Client</li>
+<li><strong>In-Game Modules Page</strong> — Will add a module page like Feather Client, which is in-game and can easily toggle modules on or off</li>
+</ul>
+<h2>Built With</h2>
+<div class="chips">
+<a class="chip" href="https://tauri.app/">Tauri</a>
+<span class="chip">React</span>
+<span class="chip">TypeScript</span>
+<span class="chip">Rust</span>
+<span class="chip">Vite</span>
+</div>
+</div>
 </body>
 </html>
