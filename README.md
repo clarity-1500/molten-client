@@ -3,7 +3,7 @@ Molten Client - Minecraft Launcher
 
   A custom, personal Minecraft Java Edition launcher built with Tauri, React, and Rust.
 
-   ## Features
+## Features
 
   - **Microsoft Authentication** — Sign in with your Microsoft account, currently being reviewed, HELLO !
   - **Mod Manager** — Browse, install, enable/disable, and delete Fabric mods via Modrinth api, using .disabled for disabling mods. also can install modpacks from modrinth
