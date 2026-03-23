@@ -1,11 +1,9 @@
-# molten-client
+# Molten-client
 Molten Client - Minecraft Launcher
-
- # Molten Client
 
   A custom, personal Minecraft Java Edition launcher built with Tauri, React, and Rust.
 
-  ## Features
+   ## Features
 
   - **Microsoft Authentication** — Sign in with your Microsoft account, currently being reviewed, HELLO !
   - **Mod Manager** — Browse, install, enable/disable, and delete Fabric mods via Modrinth api, using .disabled for disabling mods. also can install modpacks from modrinth
@@ -21,7 +19,7 @@ Molten Client - Minecraft Launcher
     - **Built-in Skyblock Mods** - planning to add in built hypixel skyblock mods, like lunar client
     - **Making built in modules page** - will add a module page like feather client, which is in game and can easily toggle modules on or off
 
-  ## Built With
+    ## Built With
 
   - [Tauri](https://tauri.app/) — Rust-powered desktop framework
   - React + TypeScript — Frontend UI
